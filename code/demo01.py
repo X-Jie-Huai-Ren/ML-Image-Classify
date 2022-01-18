@@ -83,7 +83,7 @@ def load_samples(folder_path, i):
             f = open(file_json_path, encoding='utf-8')
 
 
-            json_data = json.load(f)
+            # json_data = json.load(f)
             # image_labels_lst.append(json_data['ProductCode'])
             image_labels_lst.append(i)
 
